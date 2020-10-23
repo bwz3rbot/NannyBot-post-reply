@@ -77,9 +77,9 @@ REDDIT_PASS="YOUR BOT'S PASSWORD"
 MASTER_SUB="Bwz3rBot"
 DEBUG_NETWORK="false"
 STARTUP_LIMIT='5'
-INTERVAL='5'
-USER_SUBMISSION_LIMIT='50'
-MESSAGE="Links to all your things!"
+INTERVAL='1'
+USER_SUBMISSION_LIMIT='5'
+MESSAGE="Check out this [link](https://www.freelancer.com/u/BestBotDev)!!"
 ```
 
 
