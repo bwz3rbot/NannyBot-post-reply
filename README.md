@@ -69,7 +69,7 @@ __MESSAGE__ The message the bot will reply with when it sees a new post you have
 
 
 ```javascript
-USER_AGENT="YOUR BOT'S USERNAME"
+USER_AGENT="YOUR BOT'S NAME"
 CLIENT_ID="FROM PREFS/APPS"
 CLIENT_SECRET="FROM PREFS/APPS"
 REDDIT_USER="YOUR BOT'S USERNAME"
