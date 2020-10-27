@@ -6,5 +6,6 @@ REDDIT_PASS=''
 DEBUG_NETWORK='false'
 STARTUP_LIMIT='5'
 INTERVAL='1'
+NANNY_USER="bwz3r"
 USER_SUBMISSION_LIMIT='5'
 MESSAGE="Check out this [link](https://www.freelancer.com/u/BestBotDev)!"

@@ -88,7 +88,7 @@ async function handleSubmission(task) {
 /* [Snoolicious Run Cycle] */
 const INTERVAL = (process.env.INTERVAL * 1000 * 60);
 async function run() {
-        await snoolicious.nannyUser('bwz3r', 1);
+        await snoolicious.nannyUser(process.env.NANNY_USER, 1);
         console.log("APP CHECKING SIZE OF TASKS QUEUE: ".gray, snoolicious.tasks.size());
         await snoolicious.queryTasks(handleCommand, handleSubmission);
         console.log(`Finished Quereying Tasks! Sleeping for ${INTERVAL/1000/60} minutes...`.grey);

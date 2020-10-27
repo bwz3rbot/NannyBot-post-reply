@@ -64,6 +64,7 @@ __DEBUG_NETWORK__ may be set to false unless any problems arise.\
 __STARTUP_LIMIT__ will cause the bot to check this many items on the first sweep. Setting this value higher will ensure that when stopping and restarting the bot, no requests are forgotten. This value may be set up to 100\
 __USER_SUBMISSION_LIMIT__ Will limit the amount of posts the bot will find on its next sweeps after the first.\
 __INTERVAL__ The time (in minutes) for which the bot should sleep between doing its job again.\
+__NANNY_USER__ The username of the redditor the bot will follow.
 __MESSAGE__ The message the bot will reply with when it sees a new post you have made.
 
 
@@ -77,6 +78,7 @@ REDDIT_PASS="YOUR BOT'S PASSWORD"
 DEBUG_NETWORK="false"
 STARTUP_LIMIT='5'
 INTERVAL='1'
+NANNY_USER="bwz3r"
 USER_SUBMISSION_LIMIT='5'
 MESSAGE="Check out this [link](https://www.freelancer.com/u/BestBotDev)!!"
 ```
